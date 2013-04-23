@@ -1,4 +1,4 @@
 hirdudo-for-drupal
 ==================
 
-Drupal implementation for Hirudo.
+Drupal implementation of Hirudo.
