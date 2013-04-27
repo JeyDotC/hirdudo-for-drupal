@@ -23,7 +23,6 @@ class DrupalAssets extends Assets {
     }
 
     public function addCSS($cssPath, $external = false) {
-        \dsm(self::$appRegistry);
         if (!$external) {
             \drupal_add_css($this->resolveLocalPath($cssPath), "file");
         } else {
